@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    align-content: space-between;
+}
+form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width:70%;
+    flex-grow: 0;
+    align-self: flex-start;
+    margin-right: 5rem;
+}
+input ,textarea, select{
+    width:90%;
+    padding:1.5rem;
+    margin-top:1rem;
+    border:1px solid  transparent;
+    border-bottom:1px solid #deb887;
+}
+input:focus , textarea:focus, select:focus{
+    box-shadow: none;
+    border-bottom:2px solid #deb887;
+    outline: none;
+
+}
+input::placeholder, select::placeholder{
+    color: #5e451b;
+    font-size: 1rem;
+}
+img{
+    width: 80%;
+    height:500px;
+    margin-top: 4.5rem;
+
+}
+.flex-right{
+    width:100%;
+    height:100%;
+    align-content: center;
+}
+h1{
+    font-family: 'Cinzel', serif;
+    color: #5e451b;
+    font-weight: 400;
+    text-align: center;
+}
