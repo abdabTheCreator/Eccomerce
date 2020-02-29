@@ -1,9 +1,9 @@
 <?php 
 //DATABASE CONNECTION AND INPUT VALIDATION.
-DEFINE ('DB_USER', 'proffBB');
-DEFINE ('DB_PASSWORD', 'dRums!1902008');
-DEFINE ('DB_HOST', 'localhost');
-DEFINE ('DB_NAME', 'velvet_beach');
+DEFINE ('DB_USER', '');
+DEFINE ('DB_PASSWORD', '');
+DEFINE ('DB_HOST', '');
+DEFINE ('DB_NAME', '');
 
 $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 mysqli_set_charset($conn, 'utf8');
